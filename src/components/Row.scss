@@ -1,0 +1,30 @@
+.row{
+color: white;
+padding: 1rem 4%;
+
+.row__title{
+
+margin-bottom: 20px;
+
+ }
+.row__images{
+    display: flex;
+    overflow-x: visible;
+align-items: center;
+
+padding: .5rem 0;
+
+}
+.image{
+
+    width: 400px;
+   transition: transform 0.3s ease-in;
+    cursor: pointer;
+    padding: 5px 5px;
+    &:hover{
+
+        transform: scale(1.1);
+    }
+    }
+
+}

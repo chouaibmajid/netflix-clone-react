@@ -1,0 +1,39 @@
+.popup {
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  top: 60px;
+  height: 80vh;
+  border-radius: 10px;
+ margin: 0 10%;
+ overflow-y: scroll;
+
+&__banner{
+    padding-top: 70vh;
+    height: 50vh;
+
+
+
+}
+svg{
+    color:white;
+    background-color: inherit;
+    background: none;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+}
+
+  &__title {
+    color: white;
+    font-size: 1.7rem;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  &__decsription {
+    color: white;
+    margin: 10px;
+
+  }
+}
